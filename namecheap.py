@@ -1,6 +1,8 @@
 import sys
 import time
 import requests  # pip install requests
+from namecheap import Api
+api = Api(sparkfire88, 914fef63b4f04e6ab9b25eba232046ae, sparkfire88, 157.230.246.90, sandbox = True)
 from xml.etree.ElementTree import fromstring
 
 inPy3k = sys.version_info[0] == 3
